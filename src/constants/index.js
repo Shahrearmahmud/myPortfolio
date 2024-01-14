@@ -1,5 +1,4 @@
 import {
-    car,
     contact,
     css,
     estate,
@@ -23,8 +22,10 @@ import {
     tailwindcss,
     threads,
     typescript,
+
     
 } from "../assets/icons";
+
 
 export const skills = [
     {
@@ -133,44 +134,44 @@ export const socialLinks = [
 export const projects = [
     {
         iconUrl: pricewise,
-        theme: 'btn-back-red',
+        theme: 'btn-back-black',
         name: 'Move',
         description: 'Move a collaborative platform integrating Markdown, kanban boards, tasks, wikis, and databases for seamless notetaking, knowledge management, and project/task organization.',
         link: 'https://move-app-omega.vercel.app/',
     },
     {
         iconUrl: threads,
-        theme: 'btn-back-green',
+        theme: 'btn-back-yellow',
         name: 'Travello',
         description: 'Travello is a  online travel agency, offering a global platform for accommodation reservations with a user-friendly interface, extensive user reviews, and a diverse range of lodging options.',
         link: 'https://tourbook-omega.vercel.app/home',
     },
     {
-        iconUrl: car,
+        iconUrl: pricewise,
         theme: 'btn-back-blue',
-        name: 'Car Finding App',
-        description: 'Designed and built a mobile app for finding and comparing cars on the market, streamlining the car-buying process.',
-        link: 'https://github.com/adrianhajdin/project_next13_car_showcase',
+        name: 'Live Music',
+        description: 'Play LiveMusic on SoundCloud and discover followers on SoundCloud | Stream tracks, albums, playlists on desktop and mobile.',
+        link: 'https://github.com/Shahrearmahmud/Live-music.git',
     },
     {
         iconUrl: snapgram,
         theme: 'btn-back-pink',
-        name: 'Full Stack Instagram Clone',
-        description: 'Built a complete clone of Instagram, allowing users to share photos and connect with friends in a familiar social media environment.',
-        link: 'https://github.com/adrianhajdin/social_media_app',
+        name: 'Filmfables',
+        description: 'Explore a vast library, seamlessly search for your favorite movies, and engage with a user-friendly interface that allows you to rate and discover new films. Elevate your streaming experience with our dynamic website designed for movie enthusiasts.',
+        link: 'https://filmfables.netlify.app',
     },
     {
         iconUrl: estate,
-        theme: 'btn-back-black',
-        name: 'Real-Estate Application',
-        description: 'Developed a web application for real estate listings, facilitating property searches and connecting buyers with sellers.',
-        link: 'https://github.com/adrianhajdin/projects_realestate',
+        theme: 'btn-back-orange',
+        name: 'E-Orange',
+        description: 'Explore convenience at our online store - shop seamlessly, browse diverse products, and enjoy secure transactions for a hassle-free shopping experience.',
+        link: 'https://playful-pastelito-cb785e.netlify.app',
     },
     {
         iconUrl: summiz,
-        theme: 'btn-back-yellow',
-        name: 'AI Summarizer Application',
-        description: 'App that leverages AI to automatically generate concise & informative summaries from lengthy text content, or blogs.',
-        link: 'https://github.com/adrianhajdin/project_ai_summarizer',
+        theme: 'btn-back-green',
+        name: 'Doctor Portal',
+        description: 'Empower healthcare professionals with our Doctor Portal, simplifying appointments, patient records, and collaboration. Streamline workflows, prioritize efficiency, and elevate patient care seamlessly.',
+        link: 'https://bespoke-squirrel-03c50a.netlify.app',
     }
 ];
